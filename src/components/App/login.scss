@@ -1,0 +1,145 @@
+.signin-container{
+  display: flex;
+  position: relative;
+  max-width: calc(100vw - 30px) !important;
+  height: 100vh;
+  margin: 0px auto;
+  padding: 0px 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2{
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  form{
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #e4e4e4;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    margin: 30px 0px;
+  
+    input[type="text"],
+    input[type="password"]{
+      min-width: 300px;
+      padding: 0px 15px;
+      border: 1px solid #e4e4e4;
+      height: 40px;
+      border-radius: 3px;
+      text-align: center;
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+    button{
+      height: 40px;
+      padding: 0px 50px;
+      color: #fff;
+      font-size: 14px;
+      background: #f62f5e;
+      border-radius: 50px;
+      border:1px solid #f62f5e;
+      margin: 15px auto 0px auto;
+      &:hover{
+        background: #f8567a;
+      }
+    }
+    
+  }
+  
+  .account-link-cont{
+    display: flex;
+    width: auto;
+    min-width: 350px;
+    justify-content: space-between;
+    align-items: center;
+    a{
+      color: #F62F5E;
+      font-size: 14px;
+      text-decoration: none;
+    }
+  }
+  label{
+    font-size: 14px;
+  }
+  
+}
+footer{
+ height: 30vh;
+ width: 100vw;
+ background: url("../../assets/images/road-bg.jpg") no-repeat;
+ 
+}
+
+.size{
+  background: #EFEFEF;
+  display: block;
+  line-height: 32px;
+  margin: 0px 10px 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.size input{
+  display: none;
+  
+}
+.size input + span{
+  text-align: center;
+  display: block;
+  padding: 0px 15px;
+}
+.size input:checked + span{
+  background: #f8567a;
+  color: #fff;
+}
+body{
+  background: #f1f3f4
+}
+.d-flex{
+  display: flex;
+}
+.flex-column{
+  flex-direction: column !important;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.flex-grow-1{
+  flex-grow: 1;
+}
+.form-group{
+  align-items: center;
+}
+.align-item-center{
+  align-items: center;
+}
+.align-items-center{
+  align-items: center !important;
+}
+.justify-content-center{
+  justify-content: center !important;
+}
+.justify-content-end{
+  justify-content: flex-end !important;
+}
+.align-self-center{
+  align-self: center !important;
+}
+.align-items-start{
+  align-items: start
+}
+.fill-height-70{
+  height: 70vh;
+}
+.row{
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+}
+@media only screen and (max-width: 1024px) {
+  
+}

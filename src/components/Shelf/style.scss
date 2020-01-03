@@ -1,0 +1,134 @@
+.shelf-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  min-height: 600px;
+
+  &-header {
+    width: 100%;
+    margin-bottom: 10px;
+
+    .products-found {
+      float: left;
+      margin: 0;
+      margin-top: 8px;
+    }
+
+    .sort {
+      float: right;
+
+      select {
+        background-color: #fff;
+        outline: none;
+        border: 1px solid #ececec;
+        border-radius: 2px;
+        margin-left: 10px;
+        width: auto;
+        height: 35px;
+        cursor: pointer;
+
+        &:hover {
+          border: 1px solid #5b5a5e;
+        }
+      }
+    }
+  }
+
+  .shelf-item {
+    width: 25%;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    .shelf-item__buy-btn{
+      width: 150px;
+      margin-bottom: 15px;
+      border-radius: 50px;
+    }
+    &:hover {
+      
+
+      .shelf-item__buy-btn {
+        background-color: #F62F5E;
+      }
+      
+    }
+    .blog{
+      background: #fff;
+      &:hover{
+        box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+      }
+    }
+    .shelf-stopper {
+      position: absolute;
+      color: #ececec;
+      top: 10px;
+      right: 10px;
+      padding: 5px;
+      font-size: 0.6em;
+      background-color: #1b1a20;
+      cursor: default;
+    }
+
+    &__thumb {
+      img {
+        width: 100%;
+      }
+    }
+
+    &__title {
+      position: relative;
+      padding: 0 20px;
+      height: 45px;
+      font-weight: bold;
+
+      &::before {
+        content: '';
+        width: 20px;
+        height: 2px;
+        background-color: #F62F5E;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -10px;
+      }
+    }
+
+    &__price {
+      height: 62px;
+      overflow: hidden;
+      
+
+      .val {
+        color: #F62F5E;
+        b {
+          font-size: 1.5em;
+          margin-left: 5px;
+        }
+      }
+
+      .installment {
+        color: #9c9b9b;
+      }
+    }
+
+    &__buy-btn {
+      background-color: #1b1a20;
+      color: #fff;
+      padding: 15px 0;
+      margin-top: 10px;
+      cursor: pointer;
+      // border-bottom: 2px solid #151419;
+
+      transition: background-color 0.2s;
+    }
+  }
+}
+
+.px-05{
+  padding-left: 5px;
+  padding-right: 5px;
+}
