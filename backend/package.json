@@ -15,7 +15,7 @@
     "cors": "*",
     "express": "^4.17.1",
     "jade": "^1.11.0",
-    "jsonwebtoken": "^8.1.0",
+    "jsonwebtoken": "^9.0.0",
     "memory-cache": "^0.2.0",
     "mocha": "^3.3.0",
     "mysql": "^2.17.1",
